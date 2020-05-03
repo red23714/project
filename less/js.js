@@ -1,7 +1,4 @@
-'use strict';
+let arr = 'Вася, Петя, Маша, Саша'.split(', ', 4);
 
-function getText(text){
-	alert(text);
-}
-
-getText("Hello function!");
+arr.pop();
+console.log(arr); // Вася, Петя
